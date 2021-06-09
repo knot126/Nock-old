@@ -8,9 +8,12 @@ include("FindOpenGL")
 
 set(SOURCES
 	lib/glew/src/glew.c
-	src/glad.c
-	src/base.c
-	src/main.c)
+	lib/glad/glad.c
+	src/array.cpp
+	src/game.cpp
+	src/graphics.cpp
+	src/main.cpp
+	)
 
 add_executable(${MAIN_EXEC_NAME} ${SOURCES})
 
