@@ -13,6 +13,7 @@ set(SOURCES
 	src/game.cpp
 	src/graphics.cpp
 	src/main.cpp
+	src/log.cpp
 	)
 
 add_executable(${MAIN_EXEC_NAME} ${SOURCES})

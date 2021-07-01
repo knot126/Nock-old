@@ -7,6 +7,7 @@
 
 #include <stdio.h>
 
+#include "array.hpp"
 #include "game.hpp"
 
 int Game::init(void) {
