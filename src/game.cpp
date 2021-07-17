@@ -22,6 +22,7 @@ int Game::init(void) {
 	Object test;
 	
 	this->scene.objects.append(test);
+	this->scene.objects.remove(0);
 	
 	return 0;
 }
